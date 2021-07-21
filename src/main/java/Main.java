@@ -11,6 +11,7 @@ public class Main {
         System.out.print("Enter a string: ");
         String input = sc.nextLine();
 
+
         System.out.println(StringUtils.swapCase(input));
 
         System.out.println("Is Numeric: " + StringUtils.isNumericSpace(input));
